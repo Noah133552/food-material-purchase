@@ -14,5 +14,5 @@ export default defineConfig({
     port: 65000,
     strictPort: false,
   },
-  base: process.env.VITE_APP_BASE || '/',
+  base: '/food-material-purchase/',
 })
