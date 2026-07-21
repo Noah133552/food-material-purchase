@@ -25,8 +25,10 @@ function AdminLayout() {
   return (
     <div className="flex">
       <Sidebar />
-      <main className="flex-1 bg-gray-100 min-h-screen">
-        <Outlet />
+      <main className="flex-1 bg-gray-100 min-h-screen lg:pt-0 lg:pr-0">
+        <div className="pt-16 pr-4">
+          <Outlet />
+        </div>
       </main>
     </div>
   );
