@@ -14,5 +14,5 @@ export default defineConfig({
     port: 65000,
     strictPort: false,
   },
-  base: '/food-material-purchase/',
+  base: '/',
 })
